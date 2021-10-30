@@ -11,7 +11,7 @@ const MyOrder = () => {
         .then(data => setOrders(data));
     })
     return (
-        <div>
+        <div className="row w-100 ">
            {
               orders && orders.map(order => <MyOrderCard order={order} key={order._id}></MyOrderCard>)
            }

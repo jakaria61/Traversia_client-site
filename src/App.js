@@ -16,6 +16,7 @@ import AddService from './Components/AddService/AddService';
 import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 import MyOrder from './Components/MyOrder/MyOrder';
 import ManageAllOrder from './Components/ManageAllOrder/ManageAllOrder';
+import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
 
 
 
@@ -41,9 +42,9 @@ function App() {
             <Route path='/addService'>
               <AddService></AddService>
             </Route>
-            <Route path='/placeOrder/:serviceId'>
+            <PrivateRoute path='/placeOrder/:serviceId'>
               <PlaceOrder></PlaceOrder>
-            </Route>
+            </PrivateRoute>
             <Route path='/myOrder'>
               <MyOrder></MyOrder>
             </Route>

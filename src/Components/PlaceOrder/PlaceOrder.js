@@ -46,11 +46,13 @@ const PlaceOrder = () => {
                 <img name='serviceImg' src={service.img} alt="" className='img-fluid ' />
                 <h2 name='serviceName'>{service.Name}</h2>
                 <p name='serviceDescription'>{service.description}</p>
-                <h6>{user.displayName}</h6>
+                <h6><i class="fas fa-user"></i>  {user.displayName}</h6>
+                <h6><i class="fas fa-envelope"></i>  {user.email}</h6>
                 
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("address", { required: true, maxLength: 20 })} placeOrder='Enter your address' />
-                <input type="submit" />
+                <input {...register("address", { required: true, maxLength: 20 })} placeholder='Enter your address' /><br/>
+                <input type="date" /> <br/>
+                <input type="submit" value="conform Now" />
             </form>
         </div>
     );

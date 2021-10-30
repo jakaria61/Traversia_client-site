@@ -15,24 +15,24 @@ const Carousel = () => {
                     <div class="carousel-item active slide-bg1 row">
                         <div className='col-md-6 slide-text'>
                             <br /><br /><br />
-                            <h1>Are You <br />Sick?</h1> <br />
-                            <p>If you are looking for a good doctor for your health this is for you.</p> <br />
+                            <h1>Are You <br />Looking A Best Site For Travelling?</h1> <br />
+                            <p>If you are looking for a good Traveling site  this is for you.</p> <br />
                             <Link to='/services'><button className='btn btn-secondary'>See Our Service</button></Link> <br /> <br />
                         </div>
                     </div>
                     <div class="carousel-item slide-bg2">
                         <div className='col-md-6 slide-text'>
                             <br /><br /><br />
-                            <h1>Are you Disapointed for your<br />Heart disease??</h1> <br />
-                            <p>This is the most popular hospital for you. Here you can discuss or treatment from experienced doctor.</p> <br />
+                            <h1>Are you Want to Travel <br />With your Family??</h1> <br />
+                            <p>This is the most popular Travel site for you. Here you can Enjoy hole time with your Family.</p> <br />
                             <Link to='/services'><button className='btn btn-secondary'>See Our Service</button></Link> <br /> <br />
                         </div>
                     </div>
                     <div class="carousel-item slide-bg3">
                         <div className='col-md-6 slide-text'>
                             <br /><br /><br />
-                            <h1>Do you want to  Test your Eye ?Don't Panic!</h1> <br />
-                            <p> You can easily do it here.Here have most expert and experienced peron for testing</p> <br />
+                            <h1>Do you want to  Go for HangOut  ?With Your Friend !</h1> <br />
+                            <p> This is the best travel site for yoyr Family and friends.You can enjoy your good time with us to conform a ticcket. Lets contact with us</p> <br />
                             <Link to='/services'><button className='btn btn-secondary'>See Our Service</button></Link> <br /> <br />
                         </div>
                     </div>

@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="col-md-4 px-5 ">
                     <h1 className='text-center text-success'>jakaria</h1>
                     <hr />
-                    <p>Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis augue duis dolore te feugait nulla facilisi mazim placerat</p>
+                    <p>The World Tourism rankings are compiled by the United Nations World Tourism Organization as part of their World Tourism Barometer publication, which is released three times throughout the year</p>
 
                     <p><i class="fas fa-map-marker-alt"></i> Street, 11000 Boikaly, Khulna</p>
                     <p><i class="fas fa-phone-alt"></i> +8989898989</p>
@@ -22,12 +22,12 @@ const Footer = () => {
                 <div className="col-md-4 px-5 ">
                     <h1 className='text-center text-success'>Leatest service</h1>
                     <hr />
-                    <i class="fas fa-arrow-circle-right"> Asthema</i> <br />
-                    <i class="fas fa-arrow-circle-right"> Corona</i> <br />
-                    <i class="fas fa-arrow-circle-right"> Allergic</i> <br />
-                    <i class="fas fa-arrow-circle-right"> Surgery</i> <br />
-                    <i class="fas fa-arrow-circle-right"> Eye Operation</i> <br />
-                    <p>Take Treatment for your good health.Don't forget to Take decesion for your body.Stay safe stay healthy.</p>
+                    <i class="fas fa-arrow-circle-right"> Family Tour</i> <br />
+                    <i class="fas fa-arrow-circle-right"> Wild Tour</i> <br />
+                    <i class="fas fa-arrow-circle-right"> River Tour</i> <br />
+                    <i class="fas fa-arrow-circle-right"> Hangout</i> <br />
+                    <i class="fas fa-arrow-circle-right"> International Travel</i> <br />
+                    <p>Travelling across the world is now much easier and fun. </p>
                 </div>
                 <div className="col-md-4 px-5">
                     <h1 className='text-center text-success'>Get In Touch</h1>
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            <p className='text-center text-secondary'> &copy; All Rights Reserved Paitent Care.</p>
+            <p className='text-center text-secondary'> &copy; All Rights Reserved TraverSia.</p>
         </div>
     );
 };

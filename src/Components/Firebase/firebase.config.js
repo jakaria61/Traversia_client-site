@@ -1,9 +1,11 @@
+
+
 const firebaseConfig = {
-    apiKey: "AIzaSyDWomr5dXRVoKHeiSePwsqhm9cXluKFL5I",
-    authDomain: "patient-care-64041.firebaseapp.com",
-    projectId: "patient-care-64041",
-    storageBucket: "patient-care-64041.appspot.com",
-    messagingSenderId: "1017764793111",
-    appId: "1:1017764793111:web:ed9947211b41a7db214552"
-};
-export default firebaseConfig;
+    apiKey: "AIzaSyDrAOaewOmXL9RJg2ewVXEs-055TfI5QFs",
+    authDomain: "traversia-5a136.firebaseapp.com",
+    projectId: "traversia-5a136",
+    storageBucket: "traversia-5a136.appspot.com",
+    messagingSenderId: "1077373967388",
+    appId: "1:1077373967388:web:7f6cd2ce22e996575693d9"
+  };
+  export default firebaseConfig;
