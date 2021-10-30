@@ -6,7 +6,7 @@ const OrderCard = ({order}) => {
 
     const handleStatus = (status, id) =>{
         const newStatus = {status};
-        fetch(`http://localhost:5000/update/status/${id}`,{
+        fetch(`https://floating-lowlands-24787.herokuapp.com/update/status/${id}`,{
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newStatus)

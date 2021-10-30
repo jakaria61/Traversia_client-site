@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='row w-100 '>
 
                 <div className="col-md-4 px-5 ">
-                    <h1 className='text-center text-success'>jakaria</h1>
+                    <h1 className='text-center text-success'>TraverSia</h1>
                     <hr />
                     <p>The World Tourism rankings are compiled by the United Nations World Tourism Organization as part of their World Tourism Barometer publication, which is released three times throughout the year</p>
 

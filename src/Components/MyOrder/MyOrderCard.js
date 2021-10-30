@@ -3,7 +3,7 @@ import './MyOrderCard.css'
 const MyOrderCard = ({order}) => {
     const {serviceImg, serviceName, status,_id} = order; 
     const handelDelete=(id) => {
-        const url=`http://localhost:5000/delete/${id}`
+        const url=`https://floating-lowlands-24787.herokuapp.com/delete/${id}`
         fetch(url,{
             method: 'DELETE'
         })

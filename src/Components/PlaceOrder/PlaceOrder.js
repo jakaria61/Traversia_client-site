@@ -23,7 +23,7 @@ const PlaceOrder = () => {
         }
         console.log(newOrder);
         
-        const url = `http://localhost:5000/placeOrder`;
+        const url = `https://floating-lowlands-24787.herokuapp.com/placeOrder`;
         fetch(url, {
             method: 'POST', 
             headers: {
@@ -37,7 +37,7 @@ const PlaceOrder = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://floating-lowlands-24787.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])

@@ -4,7 +4,7 @@ import OrderCard from '../OrderCard/OrderCard';
 const ManageAllOrder = () => {
     const [orders, setOrders] = useState();
     useEffect(() =>{
-        fetch(`http://localhost:5000/orders`)
+        fetch(`https://floating-lowlands-24787.herokuapp.com/orders`)
         .then(res => res.json())
         .then(data => setOrders(data));
     })
